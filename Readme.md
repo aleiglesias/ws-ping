@@ -18,3 +18,11 @@ Root directory is obtained from the config.js file:
 Web service requests file must have the same format obtained from Fiddler:
 
 ![Request format](https://github.com/aleiglesias/ws-ping/blob/master/ws-ping-03.png)
+
+## Command-line arguments flags ##
+
+-s \<subdirectory\>: It defines the subdirectory where looking
+
+-n \<file name\>: Filter by complete file name
+
+-f : Set Fiddler proxy to monitor the request
