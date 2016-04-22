@@ -26,3 +26,8 @@ Web service requests file must have the same format obtained from Fiddler:
 -n \<file name\>: Filter by complete file name
 
 -f : Set Fiddler proxy to monitor the request
+
+For example:
+```sh
+node ws-ping -s PROD\APP -n GetCustomer.txt -f
+```
